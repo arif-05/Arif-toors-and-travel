@@ -1,1 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Mulish;
+}
+
+/* shared styles */
+
+.container{
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+.common-color{
+    color: rgb(255, 84, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Header related styles */
+.nav{
+    /* border: 2px solid tomato; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 65px;
+}
+
+.hero{
+display: flex;
+align-items: center;
+
+}
+.hero>p{
+    margin-left: 5px;
+ 
+font-size: 36px;
+font-weight: 800;
+line-height: 45px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.home>a{
+text-decoration: none;
+margin-left: 20px;
+
+}
+.on-click{
+    display: none;
+}
