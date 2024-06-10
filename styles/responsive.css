@@ -18,5 +18,27 @@
     .home{
         display: none;
     }
+
+    /* banner related */
+
+    .banner,
+    .banner-form>form{
+        display: flex;
+        flex-direction: column;
+        flex-basis: 50px;
+    }
+
+    .banner-form{
+        min-height: 60%;
+        min-width: 60%;
+
+    }
+    .banner-form>.box{
+        width: 200px;
+    }
+
+
+
+
     
 }
