@@ -73,8 +73,24 @@ height: 175.39px;
 width: 100%;
 border-radius: 16px;
 object-fit: cover;
+margin-left: 2%;
 
     }
+
+    /* why section */
+
+    .why-cards{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .card3{
+        width: 100%;
+    }
+
+    /* deals section */
     
+
+
+
 
 }
