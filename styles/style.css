@@ -454,3 +454,63 @@ padding: 50px 77px 50px 50px;
 .poster>button{
     margin: 15px auto;
 }
+
+/* video section related */
+
+.video{
+    display: flex;
+    margin: 30px auto;
+}
+.video-content{
+    /* width: 50%; */
+    width: 532px;
+height: 424px;
+display: flex;
+flex-direction: column;
+align-items: left;
+/* border: 2px solid black; */
+justify-content: space-between;
+
+}
+.video-img{
+    /* width: 49%; */
+    width: 610px;
+height: 424px;
+    background: linear-gradient(180.00deg, rgb(19, 19, 24) -31.958%,rgba(19, 19, 24, 0) 100%);
+    background-image: url(../Images/Group\ 40089.png);
+    object-fit: cover;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.video-img>p{
+    color: rgb(255, 255, 255);
+/* font-family: Mulish; */
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+
+.video-content>h3{
+    color: rgb(19, 19, 24);
+font-family: Mulish;
+font-size: 40px;
+font-weight: 800;
+line-height: 60px;
+letter-spacing: 0%;
+text-align: left;
+}
+.video-content>ul>li{
+    margin: 10px auto;
+}
+.video-content>button{
+    width: 174px;
+height: 52px;
+}
