@@ -146,6 +146,7 @@ text-align: center;
 .popular{
     display: flex;
     margin: 100px auto;
+    margin-bottom: 2px;
     align-items: start;
     justify-content: space-between;
     gap: 10px;
