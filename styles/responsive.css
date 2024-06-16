@@ -126,10 +126,53 @@ background: rgba(255, 255, 255, 0.8);
     .video-img{
         width: 335px;
 height: 200px;
+        
     }
     .video-content{
         width: 335px;
     }
+
+    /* newsletter related */
+    .news{
+        flex-direction: column;
+        align-items: center;
+        /* margin-bottom: 10px; */
+        
+    }
+    
+
+    .news-content{
+        width: 335px;
+height: 353px;
+
+    }
+    .news-content>input{
+        width: 288px;
+        height: 52px;
+    }
+    .news-content>button{
+        width: 288px;
+height: 52px;
+    }
+    .news-img{
+        width: 100%;
+        object-fit: cover;
+        height: 200px;
+    }
+    .news-img>img{
+         width: 100%; 
+        
+    }
+
+    .news-offer{
+        width: 280px;
+        height: 100px;
+        transform: rotate(-19.63deg);
+        top: -160px;
+        left: 80px;
+    }
+
+    
 
 
     
